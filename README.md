@@ -7,6 +7,12 @@
 一个基于 **计算机视觉 (OCR)** 和 **大数据分析** 的英雄联盟极地大乱斗 (ARAM) 辅助工具。
 它能自动识别游戏内的海克斯强化符文，并根据胜率数据提供最佳选择建议。
 
+ <p align="center">
+      <img src="./docs/demo.png" width="600" alt="功能演示">
+      <br>
+      <em>图：海克斯识别与颜色提示效果展示</em>
+    </p>
+
 > **数据来源说明**: 本项目的数据抓取自 [Blitz.gg](https://blitz.gg/lol/tierlist/aram-mayhem)。本工具仅供学习交流使用。
 
 ---
@@ -63,12 +69,6 @@ python main.py
     * <span style="color:gold">**金色文字**</span>：最优推荐。
     * <span style="color:green">**绿色文字**</span>：普通推荐。
     * <span style="color:red">**红色文字**</span>：未识别/无数据。
-
-    <p align="center">
-      <img src="./docs/demo.png" width="600" alt="功能演示">
-      <br>
-      <em>图：海克斯识别与颜色提示效果展示</em>
-    </p>
 
 * **`F8` - 重置/下一局**: 想更换英雄时按下 **F8**，控制台会重新弹出。
 
